@@ -11,11 +11,11 @@ server:
         #path: /greeting-service/** #path that will be intercepted
         #url: http://localhost:2222 #Default
 
-zuul:
-  routes:
-    greeting-service:
-      path: /greeting-service/**
-      serviceId: greeting-service
+#zuul:
+  #routes:
+    #greeting-service:
+      #path: /greeting-service/**
+      #serviceId: greeting-service
 
 #si utilizamos la etiqueta serviceId estaremos haciendo uso del descubrimiento de servicios a través de Ribbon.
 #De esta forma se solicitará a eureka la instancias disponibles de greeting-service,
