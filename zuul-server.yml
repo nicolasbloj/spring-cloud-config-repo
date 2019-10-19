@@ -28,3 +28,7 @@ ribbon:
 greeting-service:
   ribbon:
     listOfServers: localhost:2221, localhost:2223
+
+management:
+  security:
+    enabled=false: false
