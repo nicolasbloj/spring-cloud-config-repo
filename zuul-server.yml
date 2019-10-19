@@ -32,3 +32,7 @@ greeting-service:
 management:
   security:
     enabled: false
+endpoints:
+  web:
+    exposure:
+      include: *
