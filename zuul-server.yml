@@ -31,4 +31,4 @@ greeting-service:
 
 management:
   security:
-    enabled=false: false
+    enabled: false
