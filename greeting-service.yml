@@ -16,6 +16,3 @@ spring:
     port: 15672
     username: guest
     password: guest
-  cloud:
-    config:
-      fail-fast: true
