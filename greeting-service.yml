@@ -1,2 +1,11 @@
 server:
   port: 2222
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        #include: refresh
