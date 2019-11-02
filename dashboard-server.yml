@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+turbine:
+  appConfig: greeting-service
+  aggregator:
+    clusterConfig: GRETING-SERVICE
+#or
+#turbine.clusterNameExpression= new String("default")
